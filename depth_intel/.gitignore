@@ -1,0 +1,21 @@
+# Ignore compiled and cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore any temporary files
+*.log
+*.tmp
+
+# Ignore VS Code settings
+.vscode/
+/Lib
+/test
+/Scripts
+/ROBUST_exp
+/pose_estim
+/share

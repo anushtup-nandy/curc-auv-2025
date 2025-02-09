@@ -1,0 +1,45 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Python related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+pyenv.cfg
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Compiled files
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# Machine learning & YOLO files
+*.weights
+*.cfg
+runs/
+checkpoints/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Other
+*.swp
+*.swo
